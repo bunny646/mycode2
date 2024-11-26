@@ -2,9 +2,9 @@
 
 Persons=("ram" "raghu" "bunny")
 
-echo "First person: ${Person[0]}"
+echo "First person: ${Persons[0]}"
 
-echo "Secound person: ${Person[2]}"
+echo "Secound person: ${Persons[1]}"
 
 
 
