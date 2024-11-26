@@ -1,10 +1,11 @@
-#!bin/bash
 
-Persons=("ram" "raghu" "bunny")
+
+#!/bin/bash 
+
+Persons=("ram""raghu""bunny")
 
 echo "First person: ${Persons[0]}"
+echo "Second person: ${Persons[1]}"
 
-echo "Secound person: ${Persons[1]}"
-
-
+echo "all: ${Persons[@]}
 
